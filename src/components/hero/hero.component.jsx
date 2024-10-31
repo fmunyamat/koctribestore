@@ -1,5 +1,4 @@
 import { ReactComponent as KocLogo } from '../../assets/koclogo.svg';
-// import { Outlet } from 'react-router-dom';
 import './hero.styles.scss';
 
 function Hero() {
