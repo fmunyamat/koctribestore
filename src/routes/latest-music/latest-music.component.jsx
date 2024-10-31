@@ -5,7 +5,7 @@ function LatestMusic() {
     return(
         <>
             <div className="spotify-container">
-                <SpotifyEmbed />
+                <SpotifyEmbed className="spotify-embed" />
             </div>
         </>
     )

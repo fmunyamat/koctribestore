@@ -1,7 +1,12 @@
 .spotify-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
     background-color: black;
+
+    .spotify-embed {
+        padding-bottom: 150px;
+    }
 }

@@ -5,9 +5,11 @@
     align-content: space-between;
 
     .nav-link {
+        display: flex;
+        align-items: center;
         font-size: 1.5rem;
         color: white;
-        padding: 20px;
+        margin: 20px;
     }
 
 }
