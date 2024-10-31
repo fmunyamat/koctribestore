@@ -1,0 +1,12 @@
+.logo-container {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 100 vh;
+
+    .logo {
+        filter: drop-shadow(0 0 40px #f8d016); /* Adjust color and intensity */
+        width: 35%;
+        padding-bottom: 50px;
+    }
+}

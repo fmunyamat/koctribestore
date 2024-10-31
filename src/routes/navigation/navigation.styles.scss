@@ -1,0 +1,13 @@
+.nav-links-container {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+
+    .nav-link {
+        font-size: 1.5rem;
+        color: white;
+        padding: 20px;
+    }
+
+}
