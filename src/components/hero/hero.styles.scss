@@ -6,7 +6,8 @@
 
     .logo {
         filter: drop-shadow(0 0 40px #f8d016); /* Adjust color and intensity */
-        width: 550px;
+        max-width: 750px;
+        min-width: 400px;
         margin-bottom: 100px;
     }
 }
