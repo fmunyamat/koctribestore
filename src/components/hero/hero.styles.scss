@@ -5,9 +5,19 @@
     height: 100 vh;
 
     .logo {
-        filter: drop-shadow(0 0 40px #f8d016); /* Adjust color and intensity */
-        max-width: 750px;
-        min-width: 250px;
-        margin-bottom: 150px;
+        @media (max-width: 650px) {
+            filter: drop-shadow(0 0 40px #f8d016); /* Adjust color and intensity */
+            max-width: 750px;
+            min-width: 250px;
+            margin-bottom: 200px;
+        }
+
+        @media (min-width: 651px) {
+            filter: drop-shadow(0 0 40px #f8d016); /* Adjust color and intensity */
+            max-width: 750px;
+            min-width: 250px;
+            margin-bottom: 150px;
+        }
+
     }
 }
