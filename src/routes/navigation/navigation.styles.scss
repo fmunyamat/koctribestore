@@ -1,15 +1,20 @@
-.nav-links-container {
+.nav-container {
     background-color: black;
     display: flex;
-    justify-content: flex-end;
-    align-content: space-between;
+    justify-content: space-between;
+    height: 80px;
 
-    .nav-link {
-        display: flex;
-        align-items: center;
-        font-size: 1.5rem;
-        color: white;
-        margin: 20px;
+    @media (max-width: 650px) {
+        .web-nav {
+            display: none;
+        }
     }
 
+    @media (min-width: 651px) {
+        .mobile-nav {
+            display: none;
+        }
+    }
+
+    
 }

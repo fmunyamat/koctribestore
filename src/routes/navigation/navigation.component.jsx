@@ -1,15 +1,24 @@
-import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import NavigationLinks from "../../components/navigation-links/navigation-links.component";
+import NavLogo from "../../components/nav-logo/nav-logo.component";
+import MobileNavigation from "../../components/mobile-navigation/mobile-navigation.component";
 import './navigation.styles.scss';
 
-function Navigation({ outlet }) {
+
+function Navigation() {
+
     return (
         <>
-            <div className="nav-links-container">
-                <Link className="nav-link" to="/our-story">Our Story</Link>
-                <Link className="nav-link" to="/latest-music">Lastest Music</Link>
-                <Link className="nav-link" to="/merch">Merch</Link>
+            <div className="nav-container">
+                <NavLogo />
+                <div className="web-nav">
+                    <NavigationLinks />
+                </div>
+                <div className="mobile-nav">
+                    <MobileNavigation />
+                </div>
             </div>
-            {outlet}
+            <Outlet />
         </>
     )
 }

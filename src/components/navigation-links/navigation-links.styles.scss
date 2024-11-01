@@ -1,0 +1,10 @@
+.nav-links-container {
+    display: flex;
+    align-items: center;
+
+    .nav-link {
+        font-size: 1.5rem;
+        color: white;
+        margin: 20px;
+    }
+}
